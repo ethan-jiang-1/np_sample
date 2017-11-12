@@ -1,15 +1,26 @@
 {
-  "name": "np_sample",
-  "version": "0.0.0",
-  "description": "sample of using nodejs/reactive as front and python as backend",
+  "name": "FullStackTemplate",
+  "version": "1.0.0",
+  "description": "A Template: sample of using nodejs/reactive as front and python as backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -d --config webpack.config.js",
+    "dev-buld": "webpack -p --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d -config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:ethan-jiang-1/np_sample.git"
   },
+  "keywords": [
+    "fullstack",
+    "template",
+    "python",
+    "react",
+    "npm",
+    "webpack"
+  ],
   "author": "ethan",
   "license": "BSD-2-Clause",
   "bugs": {
