@@ -1,1 +1,9 @@
-fullstack_template/node_modules
+fullstack_template/node_modules/*
+node_modules/*
+
+/fullstack_template/*/node-modules/
+/fullstack_template/**/node-modules/
+
+fullstack_template/*/node-modules
+fullstack_template/**/node-modules
+
