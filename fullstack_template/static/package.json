@@ -14,5 +14,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/ethan-jiang-1/np_sample/issues"
+  },
+  "devDependencies": {
+    "webpack": "~3.8.1"
   }
 }
